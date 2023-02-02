@@ -7,21 +7,23 @@
 		<title>Drag & Drop</title>
 	</head>
 	<body>
-		<div>
+		<div class="container">
 			<div class="row">
-				<div class="col-header start">Начать</div>
-				<div class="col-header progress">В процессе</div>
-				<div class="col-header done">Готовы</div>
-			</div>
-
-			<div class="row">
-				<div class="placeholder placeholder-start">
-					<div class="item" draggable="true">Перетащи меня1</div>
+				<div class="col">
+					<div class="col-header start">Начать</div>
+					<div class="placeholder placeholder-start">
+						<div class="item" draggable="true">Перетащи меня</div>
+					</div>
 				</div>
-				<div class="placeholder placeholder-progress"></div>
-				<div class="placeholder placeholder-done"></div>
+				<div class="col">
+					<div class="col-header progress">В процессе</div>
+					<div class="placeholder placeholder-progress"></div>
+				</div>
+				<div class="col">
+					<div class="col-header done">Готовы</div>
+					<div class="placeholder placeholder-done"></div>
+				</div>
 			</div>
-		</div>
 
 		<script src="app.js"></script>
 	</body>
